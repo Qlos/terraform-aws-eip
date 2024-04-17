@@ -76,5 +76,3 @@ No modules.
 | <a name="output_public_ip"></a> [public\_ip](#output\_public\_ip) | Contains the public IP address |
 
 <!-- END_TF_DOCS -->
-
-

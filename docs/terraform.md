@@ -29,7 +29,7 @@ No modules.
 | <a name="input_network_interface"></a> [network\_interface](#input\_network\_interface) | Network interface ID to associate with | `string` | `null` | no |
 | <a name="input_public_ipv4_pool"></a> [public\_ipv4\_pool](#input\_public\_ipv4\_pool) | EC2 IPv4 address pool identifier or amazon. This option is only available for VPC EIPs. | `string` | `null` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Map of tags to assign to bucket. | `map(string)` | `{}` | no |
-| <a name="input_vpc"></a> [vpc](#input\_vpc) | Boolean if the EIP is in a VPC or not | `bool` | `null` | no |
+| <a name="input_vpc"></a> [vpc](#input\_vpc) | Indicates if this EIP is for use in VPC | `bool` | `true` | no |
 
 ### Outputs
 
